@@ -1,8 +1,9 @@
 
+import './Banner.css'
 const Banner = () => {
 return (
-<div className="bg-green-200 py-5">
- <div className="flex justify-center items-center h-[50vh] p-1">
+<div className="py-5 layoutImg">
+ <div className="flex justify-center items-center h-[70vh] p-1">
               
 
 <div>

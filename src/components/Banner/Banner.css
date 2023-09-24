@@ -1,6 +1,10 @@
 .layoutImg{
  
-  background-image: url('');
-  background-color: #0052ff33;
+  background-image: url('/public/bannerImg.jpg'),linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6));
+  background-blend-mode: overlay;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  
 }
 
