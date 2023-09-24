@@ -1,0 +1,135 @@
+[
+  {
+     "id":1,
+     "img":"https://i.ibb.co/bPn4T2v/Health.png",
+     "title":"Clean water for children",
+     "price":290.00,
+     "category":"Health",
+     "text_color":"#0052FF",
+     "category_bg":"#0052ff33",
+     "card_bg":"#0052ff26",
+     "description":"Clean water for children is an urgent global priority, essential for their survival, health, education, and a promising future. Access to safe drinking water protects them from waterborne diseases, reduces child mortality rates, and ensures proper growth and development. Additionally, clean water availability allows children, particularly girls, to attend school regularly instead of spending hours fetching water."   
+},
+  {
+    "id":2,
+     "img":"https://i.ibb.co/F6tSwdb/Education.png",
+     "title":"Good education",
+     "price":280.00,
+     "category":"Education",
+     "text_color":"#FF444A",
+     "category_bg":"#ff444a33",
+     "card_bg":"#ff444a26",
+     "description":"Thus, good education depends on the efforts of teachers to create an environment that can help students learn. Good school education must value the needs and preferences of individual students, be measured based on their achievement in life, and rely on teachers who exhibit the highest level of professionalism.."   
+},
+  {
+    "id":3,
+     "img":"https://i.ibb.co/BZKxpP5/Clothing.png",
+     "title":"Used Clothing Drive",
+     "price":270.00,
+     "category":"Clothing",
+     "text_color":"#79C23F",
+     "category_bg":"#79c23f33",
+     "card_bg":"#79c23f26",
+     "description":"A used clothing drive is a charitable initiative or event where people are encouraged to donate their gently used or unwanted clothing items to be distributed to individuals or families in need. These drives are often organized by schools, religious institutions, community groups, nonprofits, or even businesses, and they serve several important purposes."   
+},
+  {
+    "id":4,
+     "img":"https://i.ibb.co/Th0gqxT/Food.png",
+     "title":"Better Food for Everyone",
+     "price":260.00,
+     "category":"Food",
+     "text_color":"#F87147",
+     "category_bg":"#f8714733",
+     "card_bg":"#f8714726",
+     "description":"Better food for everyone is a global imperative. It encompasses access to nutritious, sustainable, and culturally relevant meals that promote health, reduce malnutrition, and address food insecurity. This goal necessitates a comprehensive approach, including equitable distribution, affordable options, and sustainable farming practices. Better food empowers individuals and communities, fostering physical and mental well-being while reducing the burden of diet-related diseases."   
+},
+  {
+    "id":5,
+     "img":"https://i.ibb.co/M1FVGsB/Rectangle-4287-2.png",
+     "title":"The Power of Food",
+     "price":250.00,
+     "category":"Food",
+     "text_color":"#F87147",
+     "category_bg":"#f8714733",
+     "card_bg":"#f8714726",
+     "description":"The Power of Food is profound, encompassing cultural, social, and nutritional dimensions. It bridges generations through recipes, comforts us in difficult times, and celebrates life's moments. It sparks conversations and connections, transcending boundaries. Simultaneously, it plays a vital role in our health, as nutrient-rich choices sustain our bodies. Food's influence is truly extraordinary, shaping our lives in myriad ways."   
+},
+  {
+    "id":6,
+     "img":"https://i.ibb.co/QdnHbSC/Rectangle-4287.png",
+     "title":"Clothing Chronicles",
+     "price":270.00,
+     "category":"Clothing",
+     "text_color":"#79C23F",
+     "category_bg":"#79c23f33",
+     "card_bg":"#79c23f26",
+     "description":"Clothing Chronicles tells the story of fashion through time, revealing how attire reflects culture, identity, and societal shifts. From ancient garments to modern trends, it explores the artistry and evolution of style. These narratives weave a rich tapestry of human history, showcasing the role clothing plays in our lives, from functional necessity to artistic expression."   
+}, 
+{
+  "id":7,
+  "img":"https://i.ibb.co/rM24VMN/Rectangle-4288.png",
+  "title":"Educational Insights",
+  "price":260.00,
+  "category":"Education",
+  "text_color":"#FF444A",
+  "category_bg":"#ff444a33",
+  "card_bg":"#ff444a26",
+  "description":"Educational Insights is a valuable resource that delves into various aspects of learning and knowledge acquisition. It explores innovative teaching methods, emerging technologies in education, and strategies to enhance student engagement. Through research-based articles and practical tips, it equips educators, parents, and learners with the tools to navigate the ever-evolving landscape of education, fostering a lifelong love for learning and personal growth."   
+},
+{
+  "id":8,  
+  "img":"https://i.ibb.co/TkvgdcQ/Rectangle-4284.png",
+  "title":"Wellness Wonders",
+  "price":250.00,
+  "category":"Health",
+  "text_color":"#0052FF",
+  "category_bg":"#0052ff33",
+  "card_bg":"#0052ff26",
+  "description":"Wellness Wonders Educational Insights combines the best of health and education. It offers a holistic approach to well-being by sharing valuable insights on physical, mental, and emotional health. This resource empowers individuals to make informed choices about their health and educates them on strategies for achieving wellness. With research-backed articles and practical tips, it aims to inspire and educate readers on their journey to a healthier, more fulfilling life."   
+},
+{
+  "id":9,  
+  "img":"https://i.ibb.co/VV66tgG/Health-3.png",
+  "title":"Living Well",
+  "price":255.00,
+  "category":"Health",
+  "text_color":"#0052FF",
+  "category_bg":"#0052ff33",
+  "card_bg":"#0052ff26",
+  "description":"Living Well is a philosophy that encompasses physical health, mental well-being, and a balanced lifestyle. It emphasizes the importance of making positive choices in nutrition, exercise, stress management, and personal development. By prioritizing self-care and cultivating healthy habits, individuals can enhance their overall quality of life, experience greater happiness, and achieve a state of well-being that extends to every aspect of their existence."   
+}, 
+{
+  "id":10,
+  "img":"https://i.ibb.co/rM24VMN/Rectangle-4288.png",
+  "title":"Educate to Elevate",
+  "price":220.00,
+  "category":"Education",
+  "text_color":"#FF444A",
+  "category_bg":"#ff444a33",
+  "card_bg":"#ff444a26",
+  "description":"Educate to Elevate embodies the transformative power of knowledge. It emphasizes that education is the key to personal and societal progress. By fostering a culture of learning, it aims to empower individuals to reach their full potential and contribute to the betterment of society. This motto inspires us to invest in education as a means to uplift individuals, communities, and the world as a whole."   
+},
+  {
+    "id":11,
+     "img":"https://i.ibb.co/QdnHbSC/Rectangle-4287.png",
+     "title":"Dressing Culture",
+     "price":270.00,
+     "category":"Clothing",
+     "text_color":"#79C23F",
+     "category_bg":"#79c23f33",
+     "card_bg":"#79c23f26",
+     "description":"Dressing Culture explores the profound relationship between clothing and identity. It delves into how attire reflects cultural values, traditions, and societal norms. Through the lens of fashion history and anthropology, it uncovers the significance of clothing choices in different communities, shedding light on the ways in which garments serve as powerful symbols of heritage and self-expression, shaping our understanding of culture and belonging."   
+},
+{
+  "id":12,
+   "img":"https://i.ibb.co/M1FVGsB/Rectangle-4287-2.png",
+   "title":"Culinary Creations",
+   "price":230.00,
+   "category":"Food",
+   "text_color":"#F87147",
+   "category_bg":"#f8714733",
+   "card_bg":"#f8714726",
+   "description":"Culinary Creations celebrates the artistry and diversity of food. It showcases the creative process behind delectable dishes, from inception to presentation. This culinary journey explores the fusion of flavors, cultural influences, and innovative techniques that make each meal a unique masterpiece. Through recipes, chef insights, and gastronomic stories, it invites readers to savor the world's rich culinary tapestry, inspiring their own culinary adventures."   
+}
+
+]
