@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import Category from "../Category/Category";
-
-const Categories = () => {
+import PropTypes from 'prop-types'
+const Categories = ({value}) => {
 
 const[donations,setDonations] = useState([])
 
@@ -14,12 +14,18 @@ useEffect( ()=>{
 },[])
 
 
+const filtered = donations.filter(item => item.category === value)
+
+
+
 return (
 <div className="mt-36">
 
    <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-4 p-1">
        {
-          donations && donations?.map(donation => <Category key={donation.id} donation={donation} ></Category>)
+          value ? (filtered?.map(donation => <Category key={donation.id} donation={donation} ></Category>))
+             
+         : (donations?.map(donation => <Category key={donation.id} donation={donation} ></Category>)) 
        }
    </div>
 
@@ -27,4 +33,7 @@ return (
 );
 };
 
+Categories.propTypes = {
+  value:PropTypes.string
+}
 export default Categories;
