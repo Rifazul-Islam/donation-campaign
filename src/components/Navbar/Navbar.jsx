@@ -11,7 +11,7 @@ const Navbar = () => {
      
      >Home</NavLink> </li>
 
-     <li> <NavLink to="/donation"
+     <li> <NavLink to="/donations"
     className={({ isActive, isPending }) =>
     isPending ? "pending" : isActive ? "bg-green-200 p-2 underline rounded" : ""
   }

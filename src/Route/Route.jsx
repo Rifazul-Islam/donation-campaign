@@ -1,9 +1,9 @@
 import { createBrowserRouter } from "react-router-dom";
 import Root from "../components/Root/Root";
 import Home from "../components/Home/Home";
-import Donation from "../components/Donation/Donation";
 import Statistics from "../components/Statistics/Statistics";
 import DonationDetails from "../components/DonationDetails/DonationDetails";
+import Donations from "../components/Donations/Donations";
 
 const router = createBrowserRouter([
  {
@@ -15,8 +15,8 @@ const router = createBrowserRouter([
       element:<Home/>
     },
     {
-      path:"/donation",
-      element:<Donation/>
+      path:"/donations",
+      element:<Donations/>
     },
     {
      path:"/statistics",
