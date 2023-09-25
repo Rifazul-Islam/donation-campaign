@@ -27,7 +27,7 @@ const Navbar = () => {
 return (
 <div className="flex justify-between items-center p-1 py-8 shadow-md ">
    <div>
-     <h3> <img className="w-32" src="./public/Logo.png" alt="" /> </h3>
+     <h3> <img className="w-32" src="/public/Logo.png" alt="" /> </h3>
   </div>
    <div className="sm:block">
       <ul className="flex space-x-3 "> {links} </ul>        
