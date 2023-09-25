@@ -42,7 +42,7 @@ toast.error('your donate Already added');
 
 return (
 <div className="px-1">
-    <div className="relative">  <img className="w-full   h-[100vh] object-cover" src={donation?.img} alt="" /> 
+    <div className="relative">  <img className="w-full   h-[100vh]  object-cover" src={donation?.img} alt="" /> 
     <div className="w-full p-8 absolute bottom-0   bg-[#0b0b0b80]"> 
           <button onClick={handlerDataSave} className="bg-orange-500  text-white p-2 rounded"> Donate ${donation?.price} </button>    
        </div> 
