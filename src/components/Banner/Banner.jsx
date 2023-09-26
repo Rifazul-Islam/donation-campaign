@@ -19,10 +19,10 @@ return (
               
 
 <div>
-<h2 className="text-4xl font-semibold"> I Grow By Helping People In Need </h2> <br></br>
+<h2 className="lg:text-4xl font-semibold text-2xl text-center"> I Grow By Helping People In Need </h2> <br></br>
  <div className="text-center py-4">
 <form onSubmit={handlerSubmit} >
-<input  className="py-2 px-14 border-2 border-gray-400" type="text" name="name" id="" /> 
+<input  className="py-2 lg:px-14 border-2 border-gray-400" type="text" name="name" id="" /> 
  <button className="py-2 px-5 bg-[#FF444A] text-white hover:bg-red-700"> <input type="submit" value="Submit" /> </button>
 </form>
   </div>

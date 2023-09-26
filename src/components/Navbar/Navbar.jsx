@@ -25,11 +25,11 @@ const Navbar = () => {
    </>
 
 return (
-<div className="flex justify-between items-center p-1 py-8 shadow-md ">
+<div className=" bg-[#fffffff2] flex flex-col md:flex-row gap-7  lg:justify-between md:justify-between  items-center p-1 py-8 ">
    <div>
      <h3> <img className="w-32" src="/public/Logo.png" alt="" /> </h3>
   </div>
-   <div className="sm:block">
+   <div className="">
       <ul className="flex space-x-3 "> {links} </ul>        
   </div>                            
 </div>

@@ -1,6 +1,6 @@
 .layoutImg{
  
-  background-image: url('/public/bannerImg.jpg'),linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6));
+  background-image: url('/public/bannerImg.jpg'),linear-gradient(rgba(255, 255, 255, 0.95),rgba(255, 255, 255, 0.95));
   background-blend-mode: overlay;
   background-repeat: no-repeat;
   background-position: center;

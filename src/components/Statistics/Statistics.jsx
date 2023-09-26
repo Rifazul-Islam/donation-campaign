@@ -1,19 +1,18 @@
 
-
 import Piechart from "../Piechart/Piechart";
 
 
 const Statistics = () => {
-
-
-
+ 
+          
 
 return (
-<div className="relative z-10 flex justify-center items-center h-[70vh]">   
+<div className= "flex justify-center  items-center h-[500px]">   
+
+ <div> <Piechart   />  </div>
 
 
-            <Piechart/>
-        </div>
+</div>
 
 );
 };

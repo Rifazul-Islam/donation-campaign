@@ -1,73 +1,78 @@
 
-import { useEffect, useState } from "react";
-import Chart from "react-apexcharts";
 
+import Chart from "react-apexcharts";
+import useDonations from "../../hooks/useDonations";
+import { useEffect, useState } from "react";
 
 const Piechart = () => {
-             
-              const [totalPrice,setTotalPrice] = useState([]);
-              const [donations,setDonations] = useState([])
-              const [totalNumber,setTotalNumber] = useState([])
-              const [isTrue,setIsTrue] = useState(false)
-
-              let result = [] ;
-
-              useEffect( ()=>{
-              
-                fetch('/donations.json')
-              .then(res =>res.json())
-              .then(data => setDonations(data))
-
-              
-              const savePrice = JSON.parse(localStorage.getItem('donations'))
-              const sum= savePrice.reduce((pre ,cur) => {return pre + cur.price},0)
-              const allPriceSum = donations.reduce((pre,cur) =>{return pre + cur.price},0)
-              setTotalNumber(allPriceSum)
-              setTotalPrice(sum)
-              setIsTrue(true)
-              },[donations])
-
-              const initialValue = [100,0];
+  const [donations] = useDonations()
+ 
+     
+  const[allDonation,setAllDonation] = useState()
+  const[donatePrice,setDonatePrice] = useState()
 
 
+   let result = [] ;
 
-              result.push(totalNumber)
-              result.push(totalPrice)
+
+   useEffect( ()=>{
+
+     const allDonations = donations.reduce((preValue ,currentValue) => preValue + currentValue.price , 0)
+    
+     const savePrice = JSON.parse(localStorage.getItem('donations')) 
+
+      if(savePrice){
+         const saveDonateSum = savePrice.reduce((preValue ,currentValue) => preValue + currentValue.price , 0)
+      
+         const totalRemaining = Math.abs(allDonations - saveDonateSum) ;
+           
+            setDonatePrice(saveDonateSum)
+            setAllDonation(totalRemaining)
             
-              const str = [ 'Total Donation','your donation' ]
-            
+      }else{
+         setDonatePrice(0)
+         setAllDonation(allDonations)
+      }
+
+   },[donations])
+
    
+   result.push(allDonation)
+   result.push(donatePrice)       
+            
+   const str = [ 'Total Donation', 'your donation' ]
 return (
 <>
     
- {
-   isTrue ?  <div className="container-fluid mb-3">
-   <h3 className="mt-3">Welcome to Piechart </h3>
-   <Chart 
+  <div className="container-fluid mb-3 flex  justify-center items-center">
+   
+ <div>
+  <Chart className="flex flex-col"
    type="pie"
-   width={500}
-   height={400}
+  
+    width={370}
+  
+   height={350}
 
-              
-   series={ result.length > 0 ?  result :initialValue }                
+          
+   series={result}                
 
    options={{
-       
+      colors:["#FF444A","#00C49F"],
       noData:{text:"No data"}, 
-
-         labels:str            
-                        
-
+      labels:str         
+ 
     }}
    >
-   </Chart>
-</div>  : <h3> Hello </h3>
- }
+
     
-     
-                                        
+   </Chart>
+ </div>
+</div>   
+                                 
 </>
 );
 };
+
 
 export default Piechart;
