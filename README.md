@@ -1,5 +1,5 @@
 # My Project Feature
-- This Site Donation Relate.
+- This Site is Donation Related.
 - Any card click show the details information.
 - Donate button click show the information donation page .
 
