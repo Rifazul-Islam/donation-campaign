@@ -4,7 +4,7 @@ const Category = ({donation}) => {
 const {id,img,category,text_color,category_bg,card_bg,title} = donation;
    const navigate = useNavigate()
   const handlerClick=()=>{
-     navigate(`/category/${id}`)
+     navigate(`/DonationDetails/${id}`)
   }
 
  return (
